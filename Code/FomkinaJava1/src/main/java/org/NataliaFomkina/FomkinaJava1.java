@@ -5,4 +5,5 @@ public class FomkinaJava1 {
         org.NataliaFomkina.UserInterface exe = new org.NataliaFomkina.UserInterface();
         exe.setVisible(true);
     }
+    
 }
