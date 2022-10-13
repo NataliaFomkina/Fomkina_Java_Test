@@ -38,7 +38,7 @@ public class UserInterface extends JFrame {
     public static String getResult(String inputString) {
         String str = "";
         if (inputString.equals("Вячеслав") ) { // I decided not to allow "вячеслав" input here because requirements say nothing about that possibility
-            str = "Привет";
+            str = "Привет, Вячеслав";
         }else if (inputString.equals("")){
             str = "Некорректный ввод: пустое имя";
         } else {
